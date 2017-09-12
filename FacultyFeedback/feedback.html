@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>AVNIET server</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="src/css/flat-ui.css">
+    <link rel="stylesheet" href="src/css/feedback.css">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Feedback</h3>
+        </br>
+        <div id='layout'>
+            <form action="feedback.php" method='post' >
+                <table class="table">
+
+                    <tr>
+                        <td>
+                            Subject
+                        </td>
+                        <td>
+                            Faculty
+                        </td>
+                        <td>
+                            Teaching
+                        </td>
+                        <td>
+                            Class Maintenace
+                        </td>
+                        <td>
+                            Doubts Clarification
+                        </td>
+                        <td>
+                            English Fluency
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Subject 1
+                        </td>
+                        <td>
+                            Faculty 1
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='tSub1' class="form-control">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='cMSub1' class="form-control">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                    </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='dCSub1' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='eFSub1' class="form-control">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Subject 2
+                        </td>
+                        <td>
+                            Faculty 2
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='tSub2' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='cMSub2' class="form-control">
+                                                      <option>1</option>
+                                                      <option>2</option>
+                                                      <option>3</option>
+                                                      <option>4</option>
+                                                      <option>5</option>
+                                            </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='dCSub2' class="form-control">
+                                                          <option>1</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='eFSub2' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Subject 3
+                        </td>
+                        <td>
+                            Faculty 3
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='cMSub3' name='tSub3' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select class="form-control">
+                                                      <option>1</option>
+                                                      <option>2</option>
+                                                      <option>3</option>
+                                                      <option>4</option>
+                                                      <option>5</option>
+                                            </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='dCSub3' class="form-control">
+                                                          <option>1</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='eFSub3' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Subject 4
+                        </td>
+                        <td>
+                            Faculty 4
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='tSub4' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='cMSub4' class="form-control">
+                                                      <option>1</option>
+                                                      <option>2</option>
+                                                      <option>3</option>
+                                                      <option>4</option>
+                                                      <option>5</option>
+                                            </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='dCSub4' class="form-control">
+                                                          <option>1</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='eFSub4' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Subject 5
+                        </td>
+                        <td>
+                            Faculty 5
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='tSub5' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='cMSub5' class="form-control">
+                                                      <option>1</option>
+                                                      <option>2</option>
+                                                      <option>3</option>
+                                                      <option>4</option>
+                                                      <option>5</option>
+                                            </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='dCSub5' class="form-control">
+                                                          <option>1</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group rating">
+                                <select name='eFSub5' class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                        </select>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+                <center><button type="submit" style="max-width:100px;" class="btn btn-primary btn-lg btn-block">Submit</button></center>
+            </form>
+            <div class="alert alert-info" style="margin-top:20px;">
+                Your <strong>Genuine</strong> feedback is grealty appreciated
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
